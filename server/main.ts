@@ -95,8 +95,6 @@ const resolvers = {
   },
   User: {
     name: (parent: any) => {
-      console.log({ parent });
-
       return parent.name;
     },
     firstName: (parent: any) => {

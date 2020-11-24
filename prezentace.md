@@ -2,10 +2,78 @@
 marp: true
 ---
 
-# GraphQl
+<div style="width: 100%;display: flex; align-items: center; flex-direction: column;">
+<h1>GraphQL</h1>
+<img src="./logo.png" width="500px" />
+</div>
 
-- Vzniklo v roce 2012 pro potřeby Facebooku
-- Open source release byl v roce 2015, od té doby nabíra prudce na popularitě
+---
+
+- Autorem GraphQL je Facebook
+- V roce 2012 se začal trh orientovat stále více na mobilní aplikace
+- Byl vytvořen tým vývojařů, kteří začli pracovat na nativní iOS aplikaci
+- Ihned narazili na potíže se stávající API, konrétně s newsfeed API
+
+---
+
+<img src="./newsfeed.jpg" style="width: 100%; height: 90vh"></img>
+
+---
+
+- Stávající API byla navržena tak, že vetšina logiky probíhala na serveru
+- Pro nativní iOS appku bylo potřeba, aby vetšina logiky probíhala v appce a na server se chodilo jen pro data
+- Skrze Facebook se začalo uvažovat o možnostech úpravy stávající API
+
+---
+
+<img src="./creators.jpg"></img>
+
+<div style="color: white; z-index: 1; position: absolute; bottom: 90px">
+Lee Byron
+</div>
+<div style="color: white; z-index: 1; position: absolute; left: 40%; bottom: 90px">
+Dan Schafer
+</div>
+<div style="color: white; z-index: 1; position: absolute; right: 140px; bottom: 90px">
+Nick Schrock
+</div>
+
+---
+
+- Nick Schrock napsal první prototyp pojmenovaný <strong>SuperGraph</strong>
+- To se velmi líbilo Leeovi (super IT genius), který začal přidávat vlastní nápady
+- Brzy se přidal i Dan
+
+---
+
+<div style="display: flex; justify-content: center;">
+<img src="./wending.jpg"></img>
+</div>
+
+---
+
+- Během 14ti dní měli hotovou první funkční verzi a během pár měsíců vytvořili první produkční verzi, zatím pouze pro Facebook (2012)
+- V roce 2015 přišel Nick s nápadem GraphQL open sourcovat, nesetkal se s vřelým přijetím, ale eventuálně se odsouhlasilo, že se GraphQL stane open source projektem. Došlo k tomu v druhé půlce roku 2015. Nejprve však specifikace prošla kompletním refactoringem.
+- Nebyla zveřejněna konkrétní interní implementace Facebooku, nýbrž pouze dokument, co to GraphQL je. Konkrétní implementace začala tvořit komunita, nadšená z tohoto nápadu
+- Brzy se zjistilo, že spousta firem řeší podobné problémy, jako řešil Facebook
+- Došlo k rychlé adopci GraphQL a během pár měsíců byli hotové implementace pro mnoho jazyků
+
+---
+
+## Kdo GraphQL používá?
+
+- Facebook
+- Twitter
+- AirBnb
+- Prisma
+- GitHub
+- Shopify
+- Pinterest
+- Audi
+- DailyMotion
+- PayPal
+- Yelp
+- a mnoho dalších.....
 
 ---
 
